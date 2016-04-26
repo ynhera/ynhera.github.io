@@ -27,6 +27,14 @@ a {
     }
 }
 
+.slogan {
+    width: 550px;
+    height: 71px;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1,
 h2,
 h3,
@@ -168,6 +176,7 @@ header {
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-top: 0;
+                position: relative;
                 margin-bottom: 0;
             }
             hr {
@@ -308,7 +317,7 @@ header {
     border: none;
     border-radius: 300px;
     font-weight: 700;
-    text-transform: uppercase;
+    // text-transform: uppercase;
 }
 
 .btn-xl {
